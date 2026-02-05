@@ -119,8 +119,14 @@ nav ul li a:hover {
 }
 
 /* Logo di Hero */
+/* Logo di Hero */
 .hero-logo img {
   width: 280px;
+  height: 280px; /* Pastikan tinggi dan lebar sama */
+  object-fit: cover; /* Agar gambar tidak tertarik/distorsi */
+  border-radius: 50%; /* Membuat gambar menjadi lingkaran sempurna */
+  border: 5px solid var(--pink); /* Opsional: Menambah bingkai agar lebih cantik */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Opsional: Menambah bayangan lembut */
 }
 
 /* ============================= */
